@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a Javascript Library that allows developes to manage complex states. This allows react to load specific updated elements, or different element based on the users state.
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking in react involves breaking things down into components. This allows us to better reload just the part of the page we need. And to update specific components based on user input.
 
 - [ ] Describe state.
 
+State is an object that holds data which affects the rendering of components.
+
 - [ ] Describe props.
+
+Props are used to move data around in a component. They can be "drilled" to nested components and passed up and down layers in an object.
 
 ## Project Set Up
 
@@ -43,15 +51,15 @@ Follow these steps to set up and work on your project:
 - [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
 - [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-Follow these steps for completing your project.
+      Follow these steps for completing your project.
 - [ ] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [ ] PM then will count the HW as done by merging the branch back into master.
 
 Please note:
 
