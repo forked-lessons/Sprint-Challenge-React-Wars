@@ -3,7 +3,7 @@ import './Character.css';
 const Character = props => {
   return (
     <section className="character-card">
-      <h2>{props.character.name}</h2>
+      <h2 className="name">{props.character.name}</h2>
       <section className="columns">
         <div className="left-column">
           <p>
