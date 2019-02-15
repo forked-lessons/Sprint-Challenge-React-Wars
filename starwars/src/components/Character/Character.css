@@ -1,0 +1,22 @@
+.character-card {
+  background: darkred;
+  opacity: 0.7;
+  color: white;
+  margin: 1%;
+  width: 48%;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+}
