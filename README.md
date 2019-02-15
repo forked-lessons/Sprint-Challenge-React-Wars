@@ -40,6 +40,12 @@ State is an object that holds data which affects the rendering of components.
 
 Props are used to move data around in a component. They can be "drilled" to nested components and passed up and down layers in an object.
 
+1.  Briefly describe some of the differences between a Class/Stateful component and a Functional/Presentational component.
+
+Class components are ES6 classes and Functional Components are functions
+
+The general heuristic I use is to always start with a functional component. If you find out you need lifecycle methods or it makes sense to have a small piece component level state, it’s trivial to refactor to a class component. I find this style of writing components keeps me from getting lazy and forces me to use functional components to their full potential.
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
