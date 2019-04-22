@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import CharacterList from './components/CharacterList/CharacterList';
+// import DogList from './components/Dog/DogList';
 import './App.css';
-
-class App extends Component {
+class App extends React.Component {
   constructor() {
     super();
     this.state = {
       starwarsChars: []
+      // dogList: []
     };
   }
 
@@ -29,10 +31,30 @@ class App extends Component {
       });
   };
 
+  // componentDidMount() {
+  //   this.getDogs('https://dog.ceo/api/breeds/image/random');
+  // }
+
+  // getDogs = URL => {
+
+  //   fetch(URL)
+  //     .then(res => {
+  //       return res.json();
+  //     })
+  //     .then(data => {
+  //       this.setState({ dogList: data.results });
+  //     })
+  //     .catch(err => {
+  //       throw new Error(err);
+  //     });
+  // };
+
   render() {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <CharacterList character={this.state.starwarsChars} />
+        {/* <DogList dog={this.state.dogsList} /> */}
       </div>
     );
   }
